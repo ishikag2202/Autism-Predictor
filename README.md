@@ -35,6 +35,27 @@ This project implements and compares three popular supervised machine learning m
   
   In this project, XGBoost was used to evaluate whether boosting methods could enhance ASD prediction performance further. While it achieved results close     to the Random Forest model, it required more computational resources and careful tuning of hyperparameters. Given the trade-off between complexity and       performance, Random Forest was chosen over XGBoost for deployment, but XGBoost served as a valuable benchmark in the model comparison phase.
 
+## Features
+This application offers a combination of machine learning, web interactivity, and utility-focused tools to create a smooth, informative, and functional experience for users seeking ASD prediction. Below are the key features of the project:
+
+#### User Friendly Interface
+The entire application is built using Streamlit, which enables the creation of interactive web interfaces with minimal code. Users are guided through a simple form where they can input their personal details and answers to a screening questionnaire. The design is clean, responsive, and suitable for both technical and non-technical users.
+
+#### Real-Time ASD Prediction
+Once the user fills out the form and submits it, the app instantly processes the input and uses a trained Random Forest Classifier to predict whether the person is likely to have Autism Spectrum Disorder. This eliminates the need for manual model execution, offering fast, real-time classification.
+
+#### Model Confidence Display
+Along with the binary classification result (Autistic / Not Autistic), the app also displays a confidence score—the model’s predicted probability of the result. This provides users with a clearer sense of how certain the prediction is, making the output more trustworthy and transparent.
+
+#### Dynamic Result Handling
+Based on the prediction outcome, the app provides visual feedback using Streamlit’s status functions like st.success() and st.error(). This improves readability and provides immediate, color-coded feedback to the user about their result, enhancing engagement and clarity.
+
+####  PDF Report Generation
+After receiving the prediction, users have the option to generate a personalized PDF report summarizing all their input data and the model’s output. This is implemented using the FPDF library. The report can be saved, printed, or shared, and serves as a useful document for future reference.
+
+####  Model Comparison and Extensibility
+Although Random Forest is used in the final app, the backend code includes implementations of Decision Tree and XGBoost models for comparison. This not only demonstrates flexibility and experimentation but also lays the groundwork for potential future enhancements where multiple models can be offered for selection.
+
 
 
 
