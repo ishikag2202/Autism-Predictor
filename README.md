@@ -25,6 +25,10 @@ This project implements and compares three popular supervised machine learning m
 
   In this project, the Decision Tree Classifier was implemented to provide an initial understanding of how the features affect the ASD prediction. While it    offered good interpretability, it tended to overfit on training data, leading to lower generalization accuracy. Therefore, it was mainly used as a           reference for evaluating more robust models.
 
+#### 2. Random Forest Classifier
+  It is an ensemble learning algorithm that builds multiple Decision Trees and combines their outputs (via majority voting) to improve prediction accuracy     and control overfitting. It introduces randomness during both sampling and feature selection, which leads to better model stability and performance.
+  In this project, the Random Forest model outperformed the other classifiers, offering the best accuracy and balanced performance across both training and   test sets. Its ability to handle feature variability and reduce variance made it ideal for this healthcare-related classification task. As a result, it was   selected as the final model for deployment in the Streamlit web application.
+
 
 
 
