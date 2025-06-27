@@ -20,7 +20,7 @@ The application offers a simple, accessible interface where users can enter inpu
 
 ## Machine Learning Models
 This project implements and compares three popular supervised machine learning models for binary classification (Autistic / Not Autistic):
-1. Decision Tree Classifier:
+#### 1. Decision Tree Classifier:
   It is a tree-structured model that splits the data into branches based on feature thresholds, making decisions by following a set of if-else conditions.     It works by recursively partitioning the dataset into subsets that increase homogeneity with respect to the target variable. Due to its simplicity and       interpretability, it’s often used as a baseline model in classification problems.
   In this project, the Decision Tree Classifier was implemented to provide an initial understanding of how the features affect the ASD prediction. While it    offered good interpretability, it tended to overfit on training data, leading to lower generalization accuracy. Therefore, it was mainly used as a           reference for evaluating more robust models.
 
