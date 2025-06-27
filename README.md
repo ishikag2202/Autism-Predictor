@@ -16,6 +16,8 @@ The application offers a simple, accessible interface where users can enter inpu
 -  XGBoost - Integrated as an additional high-performance model to improve accuracy and compare results with other classifiers.
 -  matplotlib - Used to visualize model comparisons or prediction outputs if graphical display is added (e.g., pie charts, bar plots).
 -  FPDF - Used to generate downloadable PDF reports summarizing the prediction results and user inputs.
+-  pickle - Used to serialize and load the trained machine learning model (model.pkl) so it can be reused during prediction without retraining.
+
 
 
 
