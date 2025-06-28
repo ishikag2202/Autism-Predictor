@@ -55,6 +55,11 @@ Based on the prediction outcome, the app provides visual feedback using Streamli
 
 ####  PDF Report Generation
 After receiving the prediction, users have the option to generate a personalized PDF report summarizing all their input data and the model’s output. This is implemented using the FPDF library. The report can be saved, printed, or shared, and serves as a useful document for future reference.
+![](pdf_1.jpg)
+![](pdf_2.jpg)
+![](pdf_3.jpg)
+![](pdf_4.jpg)
+![](pdf_5.jpg)
 
 ####  Model Comparison and Extensibility
 Although Random Forest is used in the final app, the backend code includes implementations of Decision Tree and XGBoost models for comparison. This not only demonstrates flexibility and experimentation but also lays the groundwork for potential future enhancements where multiple models can be offered for selection.
