@@ -1,5 +1,13 @@
 # Autism-Predictor
 
+- [Introduction](#introduction)
+- [Tech Stack](#tech-stack)
+- [Machine Learning Models](#machine-learning-models)
+- [Features](#features)
+- [How to Run Locally](#how-to-run-locally)
+- [Project Structure](#project-structure)
+- [Evaluation and Model Performance](#evaluation-and-model-performance)
+
 ## Introduction
 Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition that affects how a person communicates, interacts, and behaves. Early detection plays a critical role in providing timely support and improving long-term outcomes.
 
