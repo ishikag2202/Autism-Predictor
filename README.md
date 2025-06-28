@@ -97,6 +97,7 @@ streamlit run app.py
 This will open the app in your default web browser (usually at http://localhost:8501).
 
 ## Project Structure
+
 ### Key Components
 - app.py: The core of the project. It contains the Streamlit UI, form inputs, ML model loading, result display, PDF generation.
 - model/xgb_model.pkl: The trained XGBoost model used to predict autism likelihood based on user inputs.
