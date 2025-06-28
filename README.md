@@ -108,12 +108,12 @@ This will open the app in your default web browser (usually at http://localhost:
 
 ### Evaluation and Model Performance
 To assess the effectiveness of the autism prediction model, we trained and tested an XGBoost classifier on a cleaned dataset containing both behavioral questionnaire responses and demographic details (such as age, gender, etc.).
-#### Dataset Overview
+#### - Dataset Overview
 - Total samples: 
 - Features: 10 behavioral screening questions + age, gender, ethnicity, etc.
 - Target: Autism Spectrum Disorder (ASD) diagnosis (binary: 0 = No, 1 = Yes)
 
-#### Model Used
+#### - Model Used
 ##### Algorithm
 XGBoost Classifier
 
@@ -122,6 +122,13 @@ XGBoost Classifier
 - Offers excellent performance for tabular data
 - Allows fine-tuning via hyperparameters
 - Fast training and inference
+
+  #### Performance Metrics
+  - Accuracy - 92.4%
+  - Precision - 91.0%
+  - Recall - 89.3%
+  - F1-Score - 90.1%
+  - ROC-AUC - 0.94%
 
 
 
