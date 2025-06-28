@@ -20,17 +20,17 @@ The application offers a simple, accessible interface where users can enter inpu
 
 ## Machine Learning Models
 This project implements and compares three popular supervised machine learning models for binary classification (Autistic / Not Autistic):
-#### 1. Decision Tree Classifier:
+### 1. Decision Tree Classifier:
   It is a tree-structured model that splits the data into branches based on feature thresholds, making decisions by following a set of if-else conditions.     It works by recursively partitioning the dataset into subsets that increase homogeneity with respect to the target variable. Due to its simplicity and       interpretability, it’s often used as a baseline model in classification problems.
 
   In this project, the Decision Tree Classifier was implemented to provide an initial understanding of how the features affect the ASD prediction. While it    offered good interpretability, it tended to overfit on training data, leading to lower generalization accuracy. Therefore, it was mainly used as a           reference for evaluating more robust models.
 
-#### 2. Random Forest Classifier
+### 2. Random Forest Classifier
   It is an ensemble learning algorithm that builds multiple Decision Trees and combines their outputs (via majority voting) to improve prediction accuracy     and control overfitting. It introduces randomness during both sampling and feature selection, which leads to better model stability and performance.
   
   In this project, the Random Forest model outperformed the other classifiers, offering the best accuracy and balanced performance across both training and   test sets. Its ability to handle feature variability and reduce variance made it ideal for this healthcare-related classification task. As a result, it was   selected as the final model for deployment in the Streamlit web application.
 
-#### 3. XGBoost Classifier
+### 3. XGBoost Classifier
   XGBoost (Extreme Gradient Boosting) is an advanced implementation of gradient boosting algorithms. It builds trees sequentially, where each new tree         focuses on correcting the errors made by the previous ones. XGBoost is known for its high accuracy, efficiency, and fine control over regularization to     prevent overfitting.
   
   In this project, XGBoost was used to evaluate whether boosting methods could enhance ASD prediction performance further. While it achieved results close     to the Random Forest model, it required more computational resources and careful tuning of hyperparameters. Given the trade-off between complexity and       performance, Random Forest was chosen over XGBoost for deployment, but XGBoost served as a valuable benchmark in the model comparison phase.
@@ -59,7 +59,7 @@ Although Random Forest is used in the final app, the backend code includes imple
 ## How to Run Locally
 Follow these steps to run the Autism Predictor project on your local machine using Anaconda, Spyder, and Streamlit.
 
-#### Prerequisites
+### Prerequisites
 Make sure you have the following installed:
 - Anaconda
 - Python 3.8 or later
