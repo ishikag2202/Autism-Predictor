@@ -1,4 +1,4 @@
-# Autism-Predictor
+# Autism-Spectrum-Disorder-Predictor
 
 - [Introduction](#introduction)
 - [Tech Stack](#tech-stack)
