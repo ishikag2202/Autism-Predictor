@@ -149,7 +149,7 @@ Random Forest Classifier
 - Recall - 89.3%
 - F1-Score - 90.1%
 - ROC-AUC - 0.94%
-- 
+  
 ##### Confusion Matrix
 - True Positives (TP): 114
 - True Negatives (TN): 130
