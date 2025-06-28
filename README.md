@@ -143,21 +143,13 @@ Random Forest Classifier
 - Automatically handles feature importance and variability
 - Offers high accuracy and generalization capability
 
-### 📈 Performance Metrics (Random Forest)
-| Metric       | Value   |
-|--------------|---------|
-| Accuracy     | **92.4%** |
-| Precision    | **91.0%** |
-| Recall       | **89.3%** |
-| F1‑Score     | **90.1%** |
-| ROC‑AUC      | **0.94**  |
-
 #### Performance Metrics
 - Accuracy - 92.4%
 - Precision - 91.0%
 - Recall - 89.3%
 - F1-Score - 90.1%
 - ROC-AUC - 0.94%
+- 
 ##### Confusion Matrix
 - True Positives (TP): 114
 - True Negatives (TN): 130
@@ -167,6 +159,10 @@ Random Forest Classifier
 - The model shows high recall, which is critical in healthcare-related screening tools — it means the model is good at identifying individuals with autism.
 - High precision ensures that false positives are minimal, so users aren’t incorrectly told they may have ASD.
 - With a balanced F1-score and high ROC-AUC, the model provides reliable, generalizable predictions across diverse samples.
+
+### Comparison with Other Models
+While XGBoost also delivered strong performance during testing, it required more computational resources and fine-tuning. Random Forest offered similar accuracy with less complexity and training overhead, making it the better choice for real-time prediction in a lightweight web app.
+
 #### Limitations
 - Model performance may vary across different demographic groups if not adequately represented in training data.
 - It’s important to use this predictor as a preliminary tool, not a clinical diagnosis.
