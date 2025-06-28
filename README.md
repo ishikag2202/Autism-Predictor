@@ -134,3 +134,14 @@ XGBoost Classifier
 - True Negatives (TN): 130
 - False Positives (FP): 7
 - False Negatives (FN): 9
+#### Insights
+- The model shows high recall, which is critical in healthcare-related screening tools — it means the model is good at identifying individuals with autism.
+- High precision ensures that false positives are minimal, so users aren’t incorrectly told they may have ASD.
+- With a balanced F1-score and high ROC-AUC, the model provides reliable, generalizable predictions across diverse samples.
+#### Limitations
+- Model performance may vary across different demographic groups if not adequately represented in training data.
+- It’s important to use this predictor as a preliminary tool, not a clinical diagnosis.
+- Further evaluation on a larger, real-world dataset is recommended for production use.
+
+
+
