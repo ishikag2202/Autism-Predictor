@@ -114,7 +114,8 @@ To assess the effectiveness of the autism prediction model, we trained and teste
 - Target: Autism Spectrum Disorder (ASD) diagnosis (binary: 0 = No, 1 = Yes)
 
 #### Model Used
-##### Algorithm: XGBoost Classifier
+##### Algorithm
+XGBoost Classifier
 
 ##### Why XGBoost?
 - Handles missing or imbalanced data well
