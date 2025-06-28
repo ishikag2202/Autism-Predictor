@@ -160,7 +160,7 @@ Random Forest Classifier
 - High precision ensures that false positives are minimal, so users aren’t incorrectly told they may have ASD.
 - With a balanced F1-score and high ROC-AUC, the model provides reliable, generalizable predictions across diverse samples.
 
-### Comparison with Other Models
+#### Comparison with Other Models
 While XGBoost also delivered strong performance during testing, it required more computational resources and fine-tuning. Random Forest offered similar accuracy with less complexity and training overhead, making it the better choice for real-time prediction in a lightweight web app.
 
 #### Limitations
