@@ -66,17 +66,25 @@ Make sure you have the following installed:
 - Streamlit(pip install streamlit)
 - All dependencies listed in requirements.txt
 
-#### 1.Clone the Repository
+#### 1. Clone the Repository
 ~~~bash
 git clone https://github.com/ishikag2202/Autism-Predictor.git
 cd Autism-Predictor
 ~~~
-#### 2.Create a New Conda Environment (Optional but Recommended)
+#### 2. Create a New Conda Environment (Optional but Recommended)
 ~~~bash
 conda create -n autism-predictor-env python=3.8
 conda activate autism-predictor-env
 ~~~
-#### 3.Install Dependencies
+#### 3. Install Dependencies
 ~~~bash
 pip install -r requirements.txt
 ~~~
+#### 4. Run in Spyder (for testing ML scripts)
+- Open Anaconda Navigator.
+
+- Launch Spyder inside the environment.
+
+- Open the .py files from the src/ folder like train_model.py, predict.py, etc.
+
+- Run each script for data loading, preprocessing, training, and testing.
