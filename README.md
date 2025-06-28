@@ -56,6 +56,15 @@ After receiving the prediction, users have the option to generate a personalized
 ####  Model Comparison and Extensibility
 Although Random Forest is used in the final app, the backend code includes implementations of Decision Tree and XGBoost models for comparison. This not only demonstrates flexibility and experimentation but also lays the groundwork for potential future enhancements where multiple models can be offered for selection.
 
+## How to Run Locally
+Follow these steps to run the Autism Predictor project on your local machine using Anaconda, Spyder, and Streamlit.
+
+#### Prerequisites
+Make sure you have the following installed:
+- Anaconda
+- Python 3.8 or later
+- Streamlit(pip install streamlit)
+- All dependencies losted in requirements.txt
 
 
 
