@@ -88,3 +88,10 @@ pip install -r requirements.txt
 - Open the .py files from the src/ folder like train_model.py, predict.py, etc.
 
 - Run each script for data loading, preprocessing, training, and testing.
+
+#### 5. Run the Streamlit app
+To launch the web interface:
+~~~bash
+streamlit run app.py
+~~~
+This will open the app in your default web browser (usually at http://localhost:8501).
