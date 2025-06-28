@@ -106,4 +106,22 @@ This will open the app in your default web browser (usually at http://localhost:
 - requirements.txt: Contains all the necessary Python packages to run the project.
 - README.md: This file — helps users understand and run the project with ease.
 
+### Evaluation and Model Performance
+To assess the effectiveness of the autism prediction model, we trained and tested an XGBoost classifier on a cleaned dataset containing both behavioral questionnaire responses and demographic details (such as age, gender, etc.).
+#### Dataset Overview
+- Total samples: 
+- Features: 10 behavioral screening questions + age, gender, ethnicity, etc.
+- Target: Autism Spectrum Disorder (ASD) diagnosis (binary: 0 = No, 1 = Yes)
+
+#### Model Used
+##### Algorithm: XGBoost Classifier
+
+##### Why XGBoost?
+- Handles missing or imbalanced data well
+- Offers excellent performance for tabular data
+- Allows fine-tuning via hyperparameters
+- Fast training and inference
+
+
+
 
