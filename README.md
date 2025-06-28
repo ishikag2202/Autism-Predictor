@@ -64,7 +64,19 @@ Make sure you have the following installed:
 - Anaconda
 - Python 3.8 or later
 - Streamlit(pip install streamlit)
-- All dependencies losted in requirements.txt
+- All dependencies listed in requirements.txt
 
-
-
+#### 1.Clone the Repository
+~~~bash
+git clone https://github.com/ishikag2202/Autism-Predictor.git
+cd Autism-Predictor
+~~~
+#### 2.Create a New Conda Environment (Optional but Recommended)
+~~~bash
+conda create -n autism-predictor-env python=3.8
+conda activate autism-predictor-env
+~~~
+#### 3.Install Dependencies
+~~~bash
+pip install -r requirements.txt
+~~~
