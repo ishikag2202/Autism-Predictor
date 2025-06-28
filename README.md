@@ -135,13 +135,22 @@ To assess the effectiveness of the autism prediction model, we trained and teste
 
 #### - Model Used
 ##### Algorithm
-XGBoost Classifier
+Random Forest Classifier
 
-##### Why XGBoost?
-- Handles missing or imbalanced data well
-- Offers excellent performance for tabular data
-- Allows fine-tuning via hyperparameters
-- Fast training and inference
+##### Why Random Forest Classifier?
+- Ensemble model that reduces overfitting by combining multiple decision trees
+- Strong performance on tabular data with mixed feature types
+- Automatically handles feature importance and variability
+- Offers high accuracy and generalization capability
+
+### 📈 Performance Metrics (Random Forest)
+| Metric       | Value   |
+|--------------|---------|
+| Accuracy     | **92.4%** |
+| Precision    | **91.0%** |
+| Recall       | **89.3%** |
+| F1‑Score     | **90.1%** |
+| ROC‑AUC      | **0.94**  |
 
 #### Performance Metrics
 - Accuracy - 92.4%
