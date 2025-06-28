@@ -108,7 +108,11 @@ This will open the app in your default web browser (usually at http://localhost:
 - utils/pdf_generator.py: Handles creation of professional PDF reports summarizing the prediction results.
 - requirements.txt: Contains all the necessary Python packages to run the project.
 - README.md: This file — helps users understand and run the project with ease.
-
+![](img_1.jpg)
+![](img_2.jpg)
+![](img_3.jpg)
+![](img_4.jpg)
+![](img_5.jpg) 
 ### Evaluation and Model Performance
 To assess the effectiveness of the autism prediction model, we trained and tested an XGBoost classifier on a cleaned dataset containing both behavioral questionnaire responses and demographic details (such as age, gender, etc.).
 #### - Dataset Overview
