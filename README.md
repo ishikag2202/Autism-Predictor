@@ -30,7 +30,7 @@ This project implements and compares three popular supervised machine learning m
   It is an ensemble learning algorithm that builds multiple Decision Trees and combines their outputs (via majority voting) to improve prediction accuracy     and control overfitting. It introduces randomness during both sampling and feature selection, which leads to better model stability and performance.
   
   In this project, the Random Forest model outperformed the other classifiers, offering the best accuracy and balanced performance across both training and   test sets. Its ability to handle feature variability and reduce variance made it ideal for this healthcare-related classification task. As a result, it was   selected as the final model for deployment in the Streamlit web application.
-  ![](random_forest_img.png) 
+  ![](random_forest_img.webp) 
 
 ### 3. XGBoost Classifier
   XGBoost (Extreme Gradient Boosting) is an advanced implementation of gradient boosting algorithms. It builds trees sequentially, where each new tree         focuses on correcting the errors made by the previous ones. XGBoost is known for its high accuracy, efficiency, and fine control over regularization to     prevent overfitting.
