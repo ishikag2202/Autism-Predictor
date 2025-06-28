@@ -123,14 +123,14 @@ XGBoost Classifier
 - Allows fine-tuning via hyperparameters
 - Fast training and inference
 
-  #### Performance Metrics
-  - Accuracy - 92.4%
-  - Precision - 91.0%
-  - Recall - 89.3%
-  - F1-Score - 90.1%
-  - ROC-AUC - 0.94%
-  ##### Confusion Matrix
-  - True Positives (TP): 114
+#### Performance Metrics
+- Accuracy - 92.4%
+- Precision - 91.0%
+- Recall - 89.3%
+- F1-Score - 90.1%
+- ROC-AUC - 0.94%
+##### Confusion Matrix
+- True Positives (TP): 114
 - True Negatives (TN): 130
 - False Positives (FP): 7
 - False Negatives (FN): 9
